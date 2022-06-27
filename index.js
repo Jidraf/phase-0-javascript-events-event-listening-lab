@@ -1,7 +1,6 @@
-const input = document.querySelector('input');
-
+const press = document.getElementById('input')
 function addingEventListener() {
-  input.addEventListener('click', function(event) {
+  press.addEventListener('click', function(event) {
     return "clicked"
   });
 }
